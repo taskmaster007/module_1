@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+word_scrambler_final.py	../project_1/word_scrambler_final.py	1;"	kind:file	line:1
+random	../project_1/word_scrambler_final.py	/^import random$/;"	kind:namespace	line:1
+inputfile	../project_1/word_scrambler_final.py	/^inputfile = input("Enter Filename:")$/;"	kind:variable	line:2
+file_data	../project_1/word_scrambler_final.py	/^    file_data = f.read()$/;"	kind:variable	line:4
+words	../project_1/word_scrambler_final.py	/^words = file_data.split()$/;"	kind:variable	line:5
+scrambled_words	../project_1/word_scrambler_final.py	/^scrambled_words = []$/;"	kind:variable	line:6
+p	../project_1/word_scrambler_final.py	/^        p = word[len(word)-1]$/;"	kind:variable	line:9
+word	../project_1/word_scrambler_final.py	/^            word = word[:len(word)-1]$/;"	kind:variable	line:11
+p	../project_1/word_scrambler_final.py	/^            p = ''$/;"	kind:variable	line:13
+middle_letters	../project_1/word_scrambler_final.py	/^        middle_letters = word[1:len(word)-1]$/;"	kind:variable	line:14
+middle_letters	../project_1/word_scrambler_final.py	/^        middle_letters = list(middle_letters)$/;"	kind:variable	line:15
+final	../project_1/word_scrambler_final.py	/^        final = word[0] + ''.join(middle_letters) + word[len(word)-1] + p$/;"	kind:variable	line:17
+inputfile	../project_1/word_scrambler_final.py	/^inputfile = inputfile.split('.')[0] + 'Scrambled.' + inputfile.split('.')[1]$/;"	kind:variable	line:21
+assignment11_2.py	../assignment11_2.py	1;"	kind:file	line:1
+subject1marks	../assignment11_2.py	/^subject1marks = 19$/;"	kind:variable	line:1
+subject2marks	../assignment11_2.py	/^subject2marks = 18$/;"	kind:variable	line:2
+subject3marks	../assignment11_2.py	/^subject3marks = 10$/;"	kind:variable	line:3
+avgmarks	../assignment11_2.py	/^avgmarks = (subject1marks + subject2marks + subject3marks)\/3$/;"	kind:variable	line:5
+assignment13_2.py	../assignment13_2.py	1;"	kind:file	line:1
+bill_amount	../assignment13_2.py	/^bill_amount = int(input("Enter Bill Amount:"))$/;"	kind:variable	line:3
+customer_id	../assignment13_2.py	/^customer_id = int(input("Enter User ID:"))$/;"	kind:variable	line:4
+bill_amount_discounted	../assignment13_2.py	/^        bill_amount_discounted = bill_amount - (bill_amount * (5\/100))$/;"	kind:variable	line:7
+bill_amount_discounted	../assignment13_2.py	/^        bill_amount_discounted = bill_amount - (bill_amount * (2\/100))$/;"	kind:variable	line:9
+bill_amount_discounted	../assignment13_2.py	/^        bill_amount_discounted = bill_amount - (bill_amount * (1\/100))$/;"	kind:variable	line:11
+assignment10.py	../assignment10.py	1;"	kind:file	line:1
+num1	../assignment10.py	/^num1 = int(input("Enter number 1:"))$/;"	kind:variable	line:1
+num2	../assignment10.py	/^num2 = int(input("Enter number 2:"))$/;"	kind:variable	line:2
+assignment11_3.py	../assignment11_3.py	1;"	kind:file	line:1
+radius	../assignment11_3.py	/^radius = 13$/;"	kind:variable	line:1
+area	../assignment11_3.py	/^area = (22\/7) * (radius**2)$/;"	kind:variable	line:3
+perimeter	../assignment11_3.py	/^perimeter = (22\/7) * 2 * radius$/;"	kind:variable	line:4
+assignment9.py	../assignment9.py	1;"	kind:file	line:1
+i	../assignment9.py	/^i = 10 # creates an integer variable. This is a single line comment.$/;"	kind:variable	line:1
+s	../assignment9.py	/^s = True$/;"	kind:variable	line:7
+s	../assignment9.py	/^s = 24$/;"	kind:variable	line:14
+assignment13_1.py	../assignment13_1.py	1;"	kind:file	line:1
+bill_amount	../assignment13_1.py	/^bill_amount = int(input("Enter Bill Amount:"))$/;"	kind:variable	line:3
+bill_amount_discounted	../assignment13_1.py	/^    bill_amount_discounted = bill_amount - (bill_amount * (5\/100))$/;"	kind:variable	line:5
+bill_amount_discounted	../assignment13_1.py	/^    bill_amount_discounted = bill_amount - (bill_amount * (2\/100))$/;"	kind:variable	line:7
+bill_amount_discounted	../assignment13_1.py	/^    bill_amount_discounted = bill_amount - (bill_amount * (1\/100))$/;"	kind:variable	line:9
+assignment8.py	../assignment8.py	1;"	kind:file	line:1
+bill_id	../assignment8.py	/^bill_id = 101$/;"	kind:variable	line:1
+customer_id	../assignment8.py	/^customer_id = 1001$/;"	kind:variable	line:2
+customer_name	../assignment8.py	/^customer_name = "Rahul"$/;"	kind:variable	line:3
+if_minor	../assignment8.py	/^if_minor = False$/;"	kind:variable	line:4
+bill_amount	../assignment8.py	/^bill_amount = 2000.50$/;"	kind:variable	line:5
+assignment12.py	../assignment12.py	1;"	kind:file	line:1
+itemNo	../assignment12.py	/^itemNo=1005$/;"	kind:variable	line:1
+unitprice	../assignment12.py	/^unitprice = 250 #2 words should be separated by underscore$/;"	kind:variable	line:3
+quantity	../assignment12.py	/^quantity = 2$/;"	kind:variable	line:4
+amount	../assignment12.py	/^amount=quantity*unitprice #binary operators should be enclose with spaces$/;"	kind:variable	line:5
+itemNo	../assignment12.py	/^itemNo = 1005$/;"	kind:variable	line:10
+unitprice	../assignment12.py	/^unitprice = 250$/;"	kind:variable	line:11
+quantity	../assignment12.py	/^quantity = 2$/;"	kind:variable	line:12
+amount	../assignment12.py	/^amount = quantity * unitprice$/;"	kind:variable	line:13
+assignment11_1.py	../assignment11_1.py	1;"	kind:file	line:1
+a	../assignment11_1.py	/^a = 4$/;"	kind:variable	line:1
+b	../assignment11_1.py	/^b = 5$/;"	kind:variable	line:2
+a	../assignment11_1.py	/^a = a + b$/;"	kind:variable	line:5
+b	../assignment11_1.py	/^b = a - b$/;"	kind:variable	line:6
+a	../assignment11_1.py	/^a = a - b$/;"	kind:variable	line:7
+assignment11_4.py	../assignment11_4.py	1;"	kind:file	line:1
+emp_name	../assignment11_4.py	/^emp_name = input("Enter Name of Employee:")$/;"	kind:variable	line:1
+number_of_hours	../assignment11_4.py	/^number_of_hours = 40$/;"	kind:variable	line:2
+pay_rate	../assignment11_4.py	/^pay_rate = 400$/;"	kind:variable	line:3
+number_of_weeks	../assignment11_4.py	/^number_of_weeks = 4$/;"	kind:variable	line:4
+monthly_pay	../assignment11_4.py	/^monthly_pay = number_of_hours * number_of_weeks * pay_rate$/;"	kind:variable	line:5

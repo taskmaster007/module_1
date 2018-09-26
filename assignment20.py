@@ -9,7 +9,7 @@ for i in range(0,n):
     c = b
     b = a + b 
     a = c
-print(res)
+print(res)  
 
 # OUTPUT
 # Enter a number:65
